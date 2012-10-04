@@ -5,7 +5,8 @@ require.config({
   paths: {
     hm: 'vendor/hm',
     esprima: 'vendor/esprima',
-    jquery: 'vendor/jquery.min'
+    jquery: 'vendor/jquery.min',
+    d3: '../../components/d3/d3.v2'
   }
 });
  

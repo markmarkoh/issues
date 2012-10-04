@@ -1,7 +1,6 @@
-define([], function() {
+/*global define*/
+define(['d3'], function(d3) {
+  'use strict';
+  d3 = d3 || window.d3;
   return 'Hello from Yeoman!';
-  gg.gitdata.getAllReferences(
-    {
-      user: "yeoman",
-      "repo":"yeoman", ref="tags/v0.9pre3"}, function(err, msg) { console.log(err, msg); });
 });
